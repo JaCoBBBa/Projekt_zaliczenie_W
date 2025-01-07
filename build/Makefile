@@ -119,19 +119,6 @@ Projekt_zaliczenie_W\fast:
 .PHONY : Projekt_zaliczenie_W\fast
 
 #=============================================================================
-# Target rules for targets named ELF2UF2Build
-
-# Build rule for target.
-ELF2UF2Build: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ELF2UF2Build
-.PHONY : ELF2UF2Build
-
-# fast build rule for target.
-ELF2UF2Build\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ELF2UF2Build.dir\build
-.PHONY : ELF2UF2Build\fast
-
-#=============================================================================
 # Target rules for targets named bs2_default
 
 # Build rule for target.
@@ -141,7 +128,7 @@ bs2_default: cmake_check_build_system
 
 # fast build rule for target.
 bs2_default\fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default.dir\build
 .PHONY : bs2_default\fast
 
 #=============================================================================
@@ -154,21 +141,71 @@ bs2_default_bin: cmake_check_build_system
 
 # fast build rule for target.
 bs2_default_bin\fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default_bin.dir\build
 .PHONY : bs2_default_bin\fast
 
 #=============================================================================
-# Target rules for targets named bs2_default_padded_checksummed_asm
+# Target rules for targets named bs2_default_library
 
 # Build rule for target.
-bs2_default_padded_checksummed_asm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bs2_default_padded_checksummed_asm
-.PHONY : bs2_default_padded_checksummed_asm
+bs2_default_library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bs2_default_library
+.PHONY : bs2_default_library
 
 # fast build rule for target.
-bs2_default_padded_checksummed_asm\fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build
-.PHONY : bs2_default_padded_checksummed_asm\fast
+bs2_default_library\fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default_library.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default_library.dir\build
+.PHONY : bs2_default_library\fast
+
+#=============================================================================
+# Target rules for targets named pioasmBuild
+
+# Build rule for target.
+pioasmBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pioasmBuild
+.PHONY : pioasmBuild
+
+# fast build rule for target.
+pioasmBuild\fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\pioasmBuild.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\pioasmBuild.dir\build
+.PHONY : pioasmBuild\fast
+
+#=============================================================================
+# Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+
+# Build rule for target.
+cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+.PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+
+# fast build rule for target.
+cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build
+.PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast
+
+C_\pico\pico-sdk\src\common\hardware_claim\claim.obj: C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj
+.PHONY : C_\pico\pico-sdk\src\common\hardware_claim\claim.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj
+.PHONY : C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj
+
+C_\pico\pico-sdk\src\common\hardware_claim\claim.i: C_\pico\pico-sdk\src\common\hardware_claim\claim.c.i
+.PHONY : C_\pico\pico-sdk\src\common\hardware_claim\claim.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\common\hardware_claim\claim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.i
+.PHONY : C_\pico\pico-sdk\src\common\hardware_claim\claim.c.i
+
+C_\pico\pico-sdk\src\common\hardware_claim\claim.s: C_\pico\pico-sdk\src\common\hardware_claim\claim.c.s
+.PHONY : C_\pico\pico-sdk\src\common\hardware_claim\claim.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\common\hardware_claim\claim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.s
+.PHONY : C_\pico\pico-sdk\src\common\hardware_claim\claim.c.s
 
 C_\pico\pico-sdk\src\common\pico_sync\critical_section.obj: C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj
 .PHONY : C_\pico\pico-sdk\src\common\pico_sync\critical_section.obj
@@ -386,29 +423,53 @@ C_\pico\pico-sdk\src\common\pico_util\queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.s
 .PHONY : C_\pico\pico-sdk\src\common\pico_util\queue.c.s
 
-C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.obj: C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.obj
+C_\pico\pico-sdk\src\rp2040\pico_platform\platform.obj: C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2040\pico_platform\platform.obj
 
 # target to build an object file
-C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
+C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj
 
-C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.i: C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.i
+C_\pico\pico-sdk\src\rp2040\pico_platform\platform.i: C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2040\pico_platform\platform.i
 
 # target to preprocess a source file
-C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
+C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.i
 
-C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.s: C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.s
+C_\pico\pico-sdk\src\rp2040\pico_platform\platform.s: C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2040\pico_platform\platform.s
 
 # target to generate assembly for a file
-C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
+C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.s
+
+C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.obj: C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj
+
+C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.i: C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.i
+
+C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.s: C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.s
 
 C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.obj: C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.obj
@@ -618,6 +679,54 @@ C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 .PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 
+C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.obj: C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj
+
+C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.i: C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.i
+
+C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.s: C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.s
+
+C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.obj: C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj
+
+C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.i: C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.i
+
+C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.s: C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.s
+
 C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.obj: C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.obj
 
@@ -738,6 +847,30 @@ C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 .PHONY : C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 
+C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.obj: C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.i: C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.i
+
+C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.s: C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.s
+
 C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.obj: C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.obj
 
@@ -770,45 +903,125 @@ C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 
-C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.obj: C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.obj
+C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.obj: C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.obj
 
 # target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
+C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj
 
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.obj: C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.obj
-
-# target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
-
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.obj: C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.obj
-
-# target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
-
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.i: C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.i
+C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.i: C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.i
 
 # target to preprocess a source file
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
+C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.i
 
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.s: C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.s
+C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.s: C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.s
 
 # target to generate assembly for a file
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
+C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.s
+
+C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.obj: C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.i: C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.i
+
+C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.s: C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.s
+
+C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.obj: C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.obj: C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.i: C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.i
+
+C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.s: C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.s
+
+C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.obj: C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.obj: C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.obj: C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.i: C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.i
+
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.s: C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.s
 
 C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.obj: C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.obj
@@ -834,45 +1047,69 @@ C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.obj: C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.obj
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.obj: C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.obj
 
 # target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
+C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.obj
 
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.obj: C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.obj
-
-# target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
-
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.obj: C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.obj
+C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.obj: C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.obj
 
 # target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
+C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj
 
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.i: C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.i
+C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.i: C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.i
 
 # target to preprocess a source file
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
+C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.i
 
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.s: C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.s
+C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.s: C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.s
 
 # target to generate assembly for a file
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
+C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.s
+
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.obj: C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.obj: C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.i: C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.i
+
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.s: C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.s
 
 C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.obj: C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.obj
@@ -898,13 +1135,13 @@ C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.obj: C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.obj
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.obj: C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.obj
 
 # target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
+C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.obj
 
 C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.obj: C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.obj
@@ -914,29 +1151,29 @@ C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 
-C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.obj: C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.obj
+C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.obj: C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.obj
 
 # target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
+C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj
 
-C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.i: C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.i
+C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.i: C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.i
 
 # target to preprocess a source file
-C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
+C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.i
 
-C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.s: C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.s
+C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.s: C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.s
 
 # target to generate assembly for a file
-C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
+C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.s
 
 C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.obj: C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.obj
@@ -946,29 +1183,29 @@ C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 
-C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.obj: C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.obj
+C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.obj: C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.obj
 
 # target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
+C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj
 
-C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.i: C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.i
+C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.i: C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.i
 
 # target to preprocess a source file
-C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i
+C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.i
 
-C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.s: C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.s
+C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.s: C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.s
 
 # target to generate assembly for a file
-C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.s
+C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.s
 
 C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.obj: C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.obj
@@ -1018,61 +1255,101 @@ C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.obj: C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.obj
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.obj: C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.obj
 
 # target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj
 
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.i: C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.i
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.i: C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.i
 
 # target to preprocess a source file
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.i
 
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.s: C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.s
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.s: C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.s
 
 # target to generate assembly for a file
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.s
 
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.obj: C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.obj
-
-# target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
-
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.obj: C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.obj
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.obj: C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.obj
 
 # target to build an object file
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj
 
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.i: C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.i
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.i: C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.i
 
 # target to preprocess a source file
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.i
 
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.s: C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.s
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.s: C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.s
 
 # target to generate assembly for a file
-C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
-.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.s
+
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.obj: C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.i: C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.i
+
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.s: C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.s
+
+C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.obj: C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.obj
+
+# target to build an object file
+C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj
+
+C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.i: C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.i
+
+# target to preprocess a source file
+C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.i
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.i
+
+C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.s: C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.s
+
+# target to generate assembly for a file
+C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projekt_zaliczenie_W.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.s
+.PHONY : C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.s
 
 C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.obj: C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 .PHONY : C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.obj
@@ -1178,11 +1455,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ELF2UF2Build
 	@echo ... bs2_default_bin
-	@echo ... bs2_default_padded_checksummed_asm
+	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+	@echo ... pioasmBuild
 	@echo ... Projekt_zaliczenie_W
 	@echo ... bs2_default
+	@echo ... bs2_default_library
+	@echo ... C_/pico/pico-sdk/src/common/hardware_claim/claim.obj
+	@echo ... C_/pico/pico-sdk/src/common/hardware_claim/claim.i
+	@echo ... C_/pico/pico-sdk/src/common/hardware_claim/claim.s
 	@echo ... C_/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 	@echo ... C_/pico/pico-sdk/src/common/pico_sync/critical_section.i
 	@echo ... C_/pico/pico-sdk/src/common/pico_sync/critical_section.s
@@ -1210,9 +1491,12 @@ help:
 	@echo ... C_/pico/pico-sdk/src/common/pico_util/queue.obj
 	@echo ... C_/pico/pico-sdk/src/common/pico_util/queue.i
 	@echo ... C_/pico/pico-sdk/src/common/pico_util/queue.s
-	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
-	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
+	@echo ... C_/pico/pico-sdk/src/rp2040/pico_platform/platform.obj
+	@echo ... C_/pico/pico-sdk/src/rp2040/pico_platform/platform.i
+	@echo ... C_/pico/pico-sdk/src/rp2040/pico_platform/platform.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
@@ -1239,6 +1523,12 @@ help:
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
@@ -1254,48 +1544,69 @@ help:
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_flash/flash.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_flash/flash.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_flash/flash.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
-	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
+	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 	@echo ... C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s

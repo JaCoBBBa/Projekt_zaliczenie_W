@@ -100,38 +100,52 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_gpi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_platform\platform.c
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_platform\platform.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj: C:\pico\pico-sdk\src\rp2040\pico_platform\platform.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj -c C:\pico\pico-sdk\src\rp2040\pico_platform\platform.c
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_platform\platform.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2040\pico_platform\platform.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_platform\platform.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2040\pico_platform\platform.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj: C:\pico\pico-sdk\src\common\hardware_claim\claim.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/hardware_claim/claim.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj -c C:\pico\pico-sdk\src\common\hardware_claim\claim.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/hardware_claim/claim.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\common\hardware_claim\claim.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/hardware_claim/claim.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\common\hardware_claim\claim.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.s
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.i: cmake_force
@@ -142,10 +156,24 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_syn
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.s
+
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.i: cmake_force
@@ -158,7 +186,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj: C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c C:\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.i: cmake_force
@@ -172,7 +200,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj: C:\pico\pico-sdk\src\common\pico_sync\sem.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj -c C:\pico\pico-sdk\src\common\pico_sync\sem.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.i: cmake_force
@@ -186,7 +214,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj: C:\pico\pico-sdk\src\common\pico_sync\lock_core.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c C:\pico\pico-sdk\src\common\pico_sync\lock_core.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_core.c.i: cmake_force
@@ -200,7 +228,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\lock_c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.obj: C:\pico\pico-sdk\src\common\pico_sync\mutex.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\pico\pico-sdk\src\common\pico_sync\mutex.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.c.i: cmake_force
@@ -214,7 +242,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\mutex.
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\pico\pico-sdk\src\common\pico_sync\critical_section.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\pico\pico-sdk\src\common\pico_sync\critical_section.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\critical_section.c.i: cmake_force
@@ -228,7 +256,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\critic
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.obj: C:\pico\pico-sdk\src\common\pico_time\time.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.obj -c C:\pico\pico-sdk\src\common\pico_time\time.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\time.c.i: cmake_force
@@ -242,7 +270,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\time.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\pico\pico-sdk\src\common\pico_time\timeout_helper.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\pico\pico-sdk\src\common\pico_time\timeout_helper.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\timeout_helper.c.i: cmake_force
@@ -256,7 +284,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_time\timeou
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.i: cmake_force
@@ -270,7 +298,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_tim
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.obj: C:\pico\pico-sdk\src\common\pico_util\datetime.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\pico\pico-sdk\src\common\pico_util\datetime.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\datetime.c.i: cmake_force
@@ -284,7 +312,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\dateti
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.obj: C:\pico\pico-sdk\src\common\pico_util\pheap.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\pico\pico-sdk\src\common\pico_util\pheap.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.c.i: cmake_force
@@ -298,7 +326,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\pheap.
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.obj: C:\pico\pico-sdk\src\common\pico_util\queue.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.obj -c C:\pico\pico-sdk\src\common\pico_util\queue.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\queue.c.i: cmake_force
@@ -312,7 +340,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_util\queue.
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.i: cmake_force
@@ -326,7 +354,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_uar
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i: cmake_force
@@ -340,7 +368,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_clo
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.i: cmake_force
@@ -354,7 +382,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i: cmake_force
@@ -368,7 +396,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vre
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i: cmake_force
@@ -379,10 +407,80 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_wat
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
 
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_flash\flash.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_flash\flash.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_flash\flash.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_flash\flash.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.s
+
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i: cmake_force
@@ -395,7 +493,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xos
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: C:\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.i: cmake_force
@@ -409,7 +507,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_div
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i: cmake_force
@@ -420,23 +518,51 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.s
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.i: cmake_force
@@ -447,64 +573,50 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_divider\divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_divider\divider.S
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_divider\divider.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_divider\divider.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.s
-
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
-
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
-
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.s
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.i: cmake_force
@@ -515,22 +627,22 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_math.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.s
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.i: cmake_force
@@ -541,37 +653,37 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_o
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.s
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.i: cmake_force
@@ -582,36 +694,36 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_math.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.s
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.i: cmake_force
@@ -622,51 +734,93 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: C:\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c C:\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj: C:\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj -c C:\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.s
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.i
 
-CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_printf\printf.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.obj: C:\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.obj   -c C:\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.s
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c > CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.i
+
+CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.s
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i: cmake_force
@@ -680,7 +834,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\s
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: C:\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c C:\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i: cmake_force
@@ -694,7 +848,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_u
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.i: cmake_force
@@ -708,7 +862,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i: cmake_force
@@ -722,7 +876,7 @@ CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_i2c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\flags.make
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: C:\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: CMakeFiles\Projekt_zaliczenie_W.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Projekt_zaliczenie_W.dir/C_/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -MF CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj.d -o CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c C:\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
 
 CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.i: cmake_force
@@ -738,9 +892,11 @@ Projekt_zaliczenie_W_OBJECTS = \
 "CMakeFiles\Projekt_zaliczenie_W.dir\Projekt_zaliczenie_W.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj" \
@@ -758,27 +914,36 @@ Projekt_zaliczenie_W_OBJECTS = \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj" \
-"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.obj" \
+"CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj" \
 "CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj" \
@@ -791,9 +956,11 @@ Projekt_zaliczenie_W_EXTERNAL_OBJECTS =
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\Projekt_zaliczenie_W.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_platform_panic\panic.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\hardware_claim\claim.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_sync_spin_lock\sync_spin_lock.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\common\pico_sync\sem.c.obj
@@ -811,42 +978,52 @@ Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\s
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_ticks\ticks.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom_lock.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_boot_lock\boot_lock.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_clocks.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_runtime_init\runtime_init_stack_guard.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_divider\divider_hardware.S.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi_rp2040.S.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom_rp2040.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim_rp2040.S.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi_rp2040.S.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom_rp2040.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim_rp2040.S.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_malloc\malloc.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
-Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_atomic\atomic.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_cxx_options\new_delete.cpp.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_standard_binary_info\standard_binary_info.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_crt0\crt0.S.obj
+Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_clib_interface\newlib_interface.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\C_\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\build.make
-Projekt_zaliczenie_W.elf: pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
+Projekt_zaliczenie_W.elf: pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default_library.dir\bs2_default_padded_checksummed.S.obj
+Projekt_zaliczenie_W.elf: C:\pico\pico-sdk\src\rp2_common\pico_crt0\rp2040\memmap_default.ld
 Projekt_zaliczenie_W.elf: CMakeFiles\Projekt_zaliczenie_W.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable Projekt_zaliczenie_W.elf"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none --specs=nosys.specs -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__ctzdi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=sincosf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=realloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-Map=Projekt_zaliczenie_W.elf.map -Wl,--script=C:/pico/pico-sdk/src/rp2_common/pico_standard_link/memmap_default.ld -Wl,-z,max-page-size=4096 -Wl,--gc-sections -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar -Wl,--wrap=getchar @CMakeFiles\Projekt_zaliczenie_W.dir\objects1.rsp -o Projekt_zaliczenie_W.elf  pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S 
-	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Oihex C:/Users/A/Desktop/Projekt_zaliczenie_W/build/Projekt_zaliczenie_W.elf Projekt_zaliczenie_W.hex
-	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Users/A/Desktop/Projekt_zaliczenie_W/build/Projekt_zaliczenie_W.elf Projekt_zaliczenie_W.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\A\Desktop\Projekt_zaliczenie_W\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX executable Projekt_zaliczenie_W.elf"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none -Wl,-Map=Projekt_zaliczenie_W.elf.map --specs=nosys.specs -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__ctzdi2 -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=sincosf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=realloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-LC:/Users/A/Desktop/Projekt_zaliczenie_W/build -Wl,--script=C:/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld -Wl,-z,max-page-size=4096 -Wl,--gc-sections -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar -Wl,--wrap=getchar @CMakeFiles\Projekt_zaliczenie_W.dir\objects1.rsp -o Projekt_zaliczenie_W.elf  pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default_library.dir\bs2_default_padded_checksummed.S.obj 
 	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -h C:/Users/A/Desktop/Projekt_zaliczenie_W/build/Projekt_zaliczenie_W.elf > Projekt_zaliczenie_W.dis
 	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -d C:/Users/A/Desktop/Projekt_zaliczenie_W/build/Projekt_zaliczenie_W.elf >> Projekt_zaliczenie_W.dis
-	elf2uf2\elf2uf2 C:/Users/A/Desktop/Projekt_zaliczenie_W/build/Projekt_zaliczenie_W.elf Projekt_zaliczenie_W.uf2
+	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Oihex C:/Users/A/Desktop/Projekt_zaliczenie_W/build/Projekt_zaliczenie_W.elf Projekt_zaliczenie_W.hex
+	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Users/A/Desktop/Projekt_zaliczenie_W/build/Projekt_zaliczenie_W.elf Projekt_zaliczenie_W.bin
+	C:\pico\pico-sdk\tools\picotool\build\Debug\picotool\picotool.exe uf2 convert --quiet C:/Users/A/Desktop/Projekt_zaliczenie_W/build/Projekt_zaliczenie_W.elf Projekt_zaliczenie_W.uf2 --family rp2040
 
 # Rule to build all files generated by this target.
 CMakeFiles\Projekt_zaliczenie_W.dir\build: Projekt_zaliczenie_W.elf

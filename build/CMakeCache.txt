@@ -46,15 +46,14 @@ CMAKE_ASM_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the ASM compiler during RELWITHDEBINFO builds.
 CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
+//No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -79,8 +78,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//C compiler
-CMAKE_C_COMPILER:STRING=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -122,6 +121,9 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/A/Desktop/Projekt_zaliczenie_W/build/CMakeFiles/pkgRedirects
@@ -242,7 +244,20 @@ DOXYGEN_DOT_EXECUTABLE:FILEPATH=DOXYGEN_DOT_EXECUTABLE-NOTFOUND
 //Doxygen documentation generation tool (https://www.doxygen.nl)
 DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
-//Board type
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=C:/Users/A/Desktop/Projekt_zaliczenie_W/build/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//PICO target board (e.g. pico, pico2)
 PICO_BOARD:STRING=pico_w
 
 //PICO board header directories
@@ -257,7 +272,7 @@ PICO_COMPILER_CC:FILEPATH=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2
 //Path to a program.
 PICO_COMPILER_CXX:FILEPATH=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe
 
-//Default binaries to Copy code to RAM when booting from flash
+//Default binaries to copy code to RAM when booting from flash
 PICO_COPY_TO_RAM:BOOL=OFF
 
 //boot stage 2 short name
@@ -275,7 +290,7 @@ PICO_OBJCOPY:FILEPATH=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.
 //Path to a program.
 PICO_OBJDUMP:FILEPATH=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objdump.exe
 
-//PICO Build platform (e.g. rp2040, host)
+//PICO Build platform (e.g. rp2040, rp2350, rp2350-riscv,  host)
 PICO_PLATFORM:STRING=rp2040
 
 //Set to ON to fetch copy of SDK from git if not otherwise locatable
@@ -287,14 +302,20 @@ PICO_SDK_FETCH_FROM_GIT_PATH:FILEPATH=
 //Path to the Raspberry Pi Pico SDK
 PICO_SDK_PATH:PATH=C:/pico/pico-sdk
 
-//Globablly enable stdio semihosting
+//Globally enable stdio RTT
+PICO_STDIO_RTT:BOOL=OFF
+
+//Globally enable stdio semi-hosting
 PICO_STDIO_SEMIHOSTING:BOOL=OFF
 
-//Globablly enable stdio UART
+//Globally enable stdio UART
 PICO_STDIO_UART:BOOL=ON
 
-//Globablly enable stdio USB
+//Globally enable stdio USB
 PICO_STDIO_USB:BOOL=OFF
+
+//Directory where pioasm has been installed
+PIOASM_INSTALL_DIR:PATH=C:/Users/A/Desktop/Projekt_zaliczenie_W/build/pioasm-install
 
 //Value Computed by CMake
 Projekt_zaliczenie_W_BINARY_DIR:STATIC=C:/Users/A/Desktop/Projekt_zaliczenie_W/build
@@ -316,6 +337,9 @@ pico_sdk_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 pico_sdk_SOURCE_DIR:STATIC=C:/pico/pico-sdk
+
+//The directory containing a CMake configuration file for pioasm.
+pioasm_DIR:PATH=pioasm_DIR-NOTFOUND
 
 
 ########################
@@ -437,7 +461,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=79
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=96
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -482,20 +506,32 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DOXYGEN_EXECUTABLE
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
+FAMILY_MCUS:INTERNAL=RP2040
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Users/A/AppData/Local/Programs/Python/Python312/python.exe][cfound components: Interpreter ][v3.12.3()]
-PICO_BOOT_STAGE2_DIR:INTERNAL=C:/pico/pico-sdk/src/rp2_common/boot_stage2
+PICO_32BIT:INTERNAL=1
+PICO_ARM:INTERNAL=1
+PICO_BOOT_STAGE2_DIR:INTERNAL=C:/pico/pico-sdk/src/rp2040/boot_stage2
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=C:/pico/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=C:/pico/pico-sdk/cmake/preload/platforms/rp2040.cmake
+PICO_CMSIS_DEVICE:INTERNAL=RP2040
 PICO_COMPILER_ASM:INTERNAL=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/pico/pico-sdk/src/rp2_common/cmsis C:/pico/pico-sdk/src/rp2040/hardware_regs
-PICO_DOXYGEN_PATHS:INTERNAL= C:/pico/pico-sdk/src/common C:/pico/pico-sdk/src/rp2_common C:/pico/pico-sdk/src/rp2040
+PICO_DOXYGEN_ENABLED_SECTIONS:INTERNAL=rp2040_specific
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL=C:/pico/pico-sdk/src/rp2040/hardware_regs;C:/pico/pico-sdk/src/rp2_common/cmsis
+PICO_DOXYGEN_PATHS:INTERNAL=C:/pico/pico-sdk/src/common/boot_picobin_headers;C:/pico/pico-sdk/src/common/boot_picoboot_headers;C:/pico/pico-sdk/src/common/boot_uf2_headers;C:/pico/pico-sdk/src/common/pico_base_headers;C:/pico/pico-sdk/src/common/pico_usb_reset_interface_headers;C:/pico/pico-sdk/src/common/pico_bit_ops_headers;C:/pico/pico-sdk/src/common/pico_binary_info;C:/pico/pico-sdk/src/common/pico_divider_headers;C:/pico/pico-sdk/src/common/pico_sync;C:/pico/pico-sdk/src/common/pico_time;C:/pico/pico-sdk/src/common/pico_util;C:/pico/pico-sdk/src/common/pico_stdlib_headers;C:/pico/pico-sdk/src/common/hardware_claim;C:/pico/pico-sdk/src/rp2040/pico_platform;C:/pico/pico-sdk/src/rp2040/hardware_regs;C:/pico/pico-sdk/src/rp2040/hardware_structs;C:/pico/pico-sdk/src/rp2040/boot_stage2;C:/pico/pico-sdk/src/rp2_common/hardware_base;C:/pico/pico-sdk/src/rp2_common/hardware_adc;C:/pico/pico-sdk/src/rp2_common/hardware_boot_lock;C:/pico/pico-sdk/src/rp2_common/hardware_clocks;C:/pico/pico-sdk/src/rp2_common/hardware_divider;C:/pico/pico-sdk/src/rp2_common/hardware_dma;C:/pico/pico-sdk/src/rp2_common/hardware_exception;C:/pico/pico-sdk/src/rp2_common/hardware_flash;C:/pico/pico-sdk/src/rp2_common/hardware_gpio;C:/pico/pico-sdk/src/rp2_common/hardware_i2c;C:/pico/pico-sdk/src/rp2_common/hardware_interp;C:/pico/pico-sdk/src/rp2_common/hardware_irq;C:/pico/pico-sdk/src/rp2_common/hardware_pio;C:/pico/pico-sdk/src/rp2_common/hardware_pll;C:/pico/pico-sdk/src/rp2_common/hardware_pwm;C:/pico/pico-sdk/src/rp2_common/hardware_resets;C:/pico/pico-sdk/src/rp2_common/hardware_rtc;C:/pico/pico-sdk/src/rp2_common/hardware_spi;C:/pico/pico-sdk/src/rp2_common/hardware_sync;C:/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock;C:/pico/pico-sdk/src/rp2_common/hardware_ticks;C:/pico/pico-sdk/src/rp2_common/hardware_timer;C:/pico/pico-sdk/src/rp2_common/hardware_uart;C:/pico/pico-sdk/src/rp2_common/hardware_vreg;C:/pico/pico-sdk/src/rp2_common/hardware_watchdog;C:/pico/pico-sdk/src/rp2_common/hardware_xip_cache;C:/pico/pico-sdk/src/rp2_common/hardware_xosc;C:/pico/pico-sdk/src/rp2_common/boot_bootrom_headers;C:/pico/pico-sdk/src/rp2_common/pico_platform_compiler;C:/pico/pico-sdk/src/rp2_common/pico_platform_sections;C:/pico/pico-sdk/src/rp2_common/pico_platform_panic;C:/pico/pico-sdk/src/rp2_common/pico_aon_timer;C:/pico/pico-sdk/src/rp2_common/pico_bootrom;C:/pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset;C:/pico/pico-sdk/src/rp2_common/pico_multicore;C:/pico/pico-sdk/src/rp2_common/pico_unique_id;C:/pico/pico-sdk/src/rp2_common/pico_atomic;C:/pico/pico-sdk/src/rp2_common/pico_bit_ops;C:/pico/pico-sdk/src/rp2_common/pico_divider;C:/pico/pico-sdk/src/rp2_common/pico_double;C:/pico/pico-sdk/src/rp2_common/pico_int64_ops;C:/pico/pico-sdk/src/rp2_common/pico_flash;C:/pico/pico-sdk/src/rp2_common/pico_float;C:/pico/pico-sdk/src/rp2_common/pico_mem_ops;C:/pico/pico-sdk/src/rp2_common/pico_malloc;C:/pico/pico-sdk/src/rp2_common/pico_printf;C:/pico/pico-sdk/src/rp2_common/pico_rand;C:/pico/pico-sdk/src/rp2_common/pico_stdio_semihosting;C:/pico/pico-sdk/src/rp2_common/pico_stdio_uart;C:/pico/pico-sdk/src/rp2_common/pico_stdio_rtt;C:/pico/pico-sdk/src/rp2_common/cmsis;C:/pico/pico-sdk/src/rp2_common/tinyusb;C:/pico/pico-sdk/src/rp2_common/pico_stdio_usb;C:/pico/pico-sdk/src/rp2_common/pico_i2c_slave;C:/pico/pico-sdk/src/rp2_common/pico_async_context;C:/pico/pico-sdk/src/rp2_common/pico_btstack;C:/pico/pico-sdk/src/rp2_common/pico_cyw43_driver;C:/pico/pico-sdk/src/rp2_common/pico_lwip/tools;C:/pico/pico-sdk/src/rp2_common/pico_lwip;C:/pico/pico-sdk/lib/cyw43-driver/src;C:/pico/pico-sdk/src/rp2_common/pico_cyw43_arch;C:/pico/pico-sdk/src/rp2_common/pico_mbedtls;C:/pico/pico-sdk/src/rp2_common/pico_time_adapter;C:/pico/pico-sdk/src/rp2_common/pico_crt0;C:/pico/pico-sdk/src/rp2_common/pico_clib_interface;C:/pico/pico-sdk/src/rp2_common/pico_cxx_options;C:/pico/pico-sdk/src/rp2_common/pico_standard_binary_info;C:/pico/pico-sdk/src/rp2_common/pico_standard_link;C:/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration;C:/pico/pico-sdk/src/rp2_common/pico_fix;C:/pico/pico-sdk/src/rp2_common/pico_runtime_init;C:/pico/pico-sdk/src/rp2_common/pico_runtime;C:/pico/pico-sdk/src/rp2_common/pico_stdio;C:/pico/pico-sdk/src/rp2_common/pico_stdlib;C:/Users/A/Desktop/Projekt_zaliczenie_W/build/pico-sdk/src/extra_doxygen
+PICO_DOXYGEN_PRE_DEFINES:INTERNAL=PICO_RP2040=1;PICO_RP2350=0
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1
 PICO_PLATFORM_CMAKE_FILE:INTERNAL=C:/pico/pico-sdk/src/rp2040.cmake
+//Saved CMAKE_TOOLCHAIN_FILE
+PICO_PREVIOUS_CMAKE_TOOLCHAIN_FILE:INTERNAL=C:/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake
+PICO_RISCV:INTERNAL=0
+PICO_RP2040:INTERNAL=1
+PICO_RP2350:INTERNAL=0
 //Enable build of SDK tests
 PICO_SDK_TESTS_ENABLED:INTERNAL=
 PICO_TOOLCHAIN_PATH:INTERNAL=
+PICO_TOOLS_DIR:INTERNAL=C:/pico/pico-sdk/tools
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
@@ -504,7 +540,9 @@ _Python3_Development_REASON_FAILURE:INTERNAL=
 _Python3_EXECUTABLE:INTERNAL=C:/Users/A/AppData/Local/Programs/Python/Python312/python.exe
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;32;;;abi3;C:\Users\A\AppData\Local\Programs\Python\Python312\Lib;C:\Users\A\AppData\Local\Programs\Python\Python312\Lib;C:\Users\A\AppData\Local\Programs\Python\Python312\Lib\site-packages;C:\Users\A\AppData\Local\Programs\Python\Python312\Lib\site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=475bb240c3bfce6f0a305736b2e95314
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=51f8490bea936d7da77edc39f57c51b6
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

@@ -115,6 +115,42 @@ depend:
 	cd C:\Users\A\Desktop\Projekt_zaliczenie_W\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : depend
 
+# Convenience name for target.
+pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\pioasmBuild.dir\rule:
+	cd C:\Users\A\Desktop\Projekt_zaliczenie_W\build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\pioasmBuild.dir\rule
+	cd C:\Users\A\Desktop\Projekt_zaliczenie_W\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+.PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\pioasmBuild.dir\rule
+
+# Convenience name for target.
+pioasmBuild: pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\pioasmBuild.dir\rule
+.PHONY : pioasmBuild
+
+# fast build rule for target.
+pioasmBuild\fast:
+	cd C:\Users\A\Desktop\Projekt_zaliczenie_W\build
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\pioasmBuild.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\pioasmBuild.dir\build
+	cd C:\Users\A\Desktop\Projekt_zaliczenie_W\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+.PHONY : pioasmBuild\fast
+
+# Convenience name for target.
+pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\rule:
+	cd C:\Users\A\Desktop\Projekt_zaliczenie_W\build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\rule
+	cd C:\Users\A\Desktop\Projekt_zaliczenie_W\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+.PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\rule
+
+# Convenience name for target.
+cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\rule
+.PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+
+# fast build rule for target.
+cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast:
+	cd C:\Users\A\Desktop\Projekt_zaliczenie_W\build
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build
+	cd C:\Users\A\Desktop\Projekt_zaliczenie_W\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+.PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +159,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+	@echo ... pioasmBuild
 .PHONY : help
 
 
